@@ -1,0 +1,18 @@
+Steps to visualise the data:
+
+1.Crawler Runs
+Put the data in the S3 bucket and run the crawler.
+Crawler will create a tale to view the data
+Use AWS Athena to run some queries on the table
+
+
+2.ETL Transformation
+
+In this step, Use AWS Glue.
+AWS glue will help us to transfrom the data based on filters.
+Necessary fileds can be taken from the table and a new table can be created.
+
+3.AWS Quicksight
+
+Here, the final data will be given as input and the data wil be visusalised.
+Many insights can be gathered through this data.
